@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    tools:context="com.mada.dzikirpagidanpetang.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kubahapp"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_label_black_24dp"
+        android:layout_below="@+id/txtmenu"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="115dp"
+        android:id="@+id/imglabel"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_label_black_24dp"
+        android:layout_below="@+id/imglabel"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="115dp"
+        android:id="@+id/imglabel2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_label_black_24dp"
+        android:layout_below="@+id/imglabel2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="115dp"
+        android:id="@+id/imglabel3"/>
+
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Pagi"
+        android:textColor="#fff"
+        android:id="@+id/btnpagi"
+        android:layout_below="@+id/txtmenu"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:layout_marginLeft="165dp"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Petang"
+        android:textColor="#fff"
+        android:id="@+id/btnpetang"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/btnpagi"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Pagi Dan Petang"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/btnpetang"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnpagipetang"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_marginTop="180dp"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:id="@+id/txtmenu"
+        android:textColor="@color/colorPrimaryDark"
+     />
+
+
+</RelativeLayout>
